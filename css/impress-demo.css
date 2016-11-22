@@ -231,14 +231,29 @@ a:focus {
     display: block;
     font-size: 90px;
 	
-    line-height: 72px;
+    line-height: 50px;
 	
     margin-top: 100px;
+}
+
+.slide qsma {
+    display: block;
+    font-size: 70px;
+	
+    line-height: 40px;
+	
+    margin-top: 50px;
 }
 
 .slide sma {
     font-size: 25px;
 	line-height: 50px;
+}
+
+.slide sma_dash {
+    font-size: 30px;
+	line-height: 50px;
+	text-decoration: underline;
 }
 
 .slide q strong {
@@ -247,6 +262,19 @@ a:focus {
 
 .slide p {    
     font-size: 45px;
+}
+
+.slide psma {
+	display: block;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.slide psma_right {
+	display: block;
+    font-size: 35px;
+    
+	text-align: right;
 }
 /*
     And now we start to style each step separately.
