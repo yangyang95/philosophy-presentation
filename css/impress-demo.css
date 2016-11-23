@@ -213,12 +213,12 @@ a:focus {
     height: 700px;
     padding: 40px 60px;
 
-    background-color: white;
+    background-color: rgb(65, 105, 127);
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
-    color: rgb(102, 102, 102);
+    color: white;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-family: 'Open Sans', Arial, sans-serif;
@@ -229,7 +229,7 @@ a:focus {
 
 .slide q {
     display: block;
-    font-size: 90px;
+    font-size: 80px;
 	
     line-height: 50px;
 	
@@ -250,6 +250,11 @@ a:focus {
 	line-height: 50px;
 }
 
+.slide ssma {
+    font-size: 22px;
+	line-height: 50px;
+}
+
 .slide sma_dash {
     font-size: 30px;
 	line-height: 50px;
@@ -262,19 +267,13 @@ a:focus {
 
 .slide p {    
     font-size: 45px;
+    line-height: 50px;
 }
 
 .slide psma {
 	display: block;
     font-size: 35px;
     line-height: 60px;
-}
-
-.slide psma_right {
-	display: block;
-    font-size: 35px;
-    
-	text-align: right;
 }
 /*
     And now we start to style each step separately.
@@ -288,13 +287,19 @@ a:focus {
 */
 
 #title {
-    padding: 150px;
+    padding: 200px;
 }
 
 #title .group{
-	position: relative;	
-	left: 1000px;
-	bottom: 50px;
+    font-size: 60px;	
+    position: relative;	
+	left: 430px;
+	bottom: 35px;
+}
+
+#title .name{
+    font-size: 40px;
+	padding-left: 155px;
 }
 
 #title .try {
@@ -316,12 +321,26 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 190px;
+    padding: 80px;
+    font-size: 150px;
+    line-height: 50px;	
 }
 
 #title .footnote {
     font-size: 32px;
 }
+
+
+#end {
+    padding: 350px;
+}
+
+#end h1 {
+    padding: 80px;
+    font-size: 150px;
+    line-height: 50px;	
+}
+
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
