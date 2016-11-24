@@ -97,7 +97,15 @@ body {
 /*
     Now let's bring some text styles back ...
 */
-b, strong { font-weight: bold }
+b, strong { font -weight: bold }
+bstrong { 
+    font-weight: bold; 
+    font-size: 45px;        
+}
+sstrong { 
+    font-weight: bold; 
+    font-size: 30px;        
+}
 i, em { font-style: italic }
 
 /*
@@ -232,8 +240,35 @@ a:focus {
     font-size: 80px;
 	
     line-height: 50px;
-	
+	padding-left: 200px;
     margin-top: 100px;
+}
+
+.slide qm {
+    display: block;
+    font-size: 70px;
+	
+    line-height: 40px;
+	padding-left: 110px;
+    margin-top: 50px;
+}
+
+.slide qq {
+    display: block;
+    font-size: 80px;
+	
+    line-height: 40px;
+	padding-left: 300px;
+    margin-top: 50px;
+}
+
+.slide qsm {
+    display: block;
+    font-size: 70px;
+	
+    line-height: 40px;
+	padding-left: 20px;
+    margin-top: 50px;
 }
 
 .slide qsma {
@@ -241,7 +276,7 @@ a:focus {
     font-size: 70px;
 	
     line-height: 40px;
-	
+	padding-left: 250px;
     margin-top: 50px;
 }
 
@@ -285,6 +320,10 @@ a:focus {
     First is the title step with a big <h1> (no room for padding) and some
     3D positioning along Z axis.
 */
+
+hr { 
+    border-width: 2px;
+}
 
 #title {
     padding: 200px;
