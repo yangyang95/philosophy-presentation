@@ -307,6 +307,16 @@ a:focus {
     line-height: 50px;
 }
 
+.slide pm {    
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.slide psm {    
+    font-size: 40px;
+    line-height: 40px;
+}
+
 .slide psma {
 	display: block;
     font-size: 35px;
