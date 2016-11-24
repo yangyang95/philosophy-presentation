@@ -378,9 +378,12 @@ hr {
 }
 
 #title .footnote {
-    font-size: 32px;
+    font-size: 30px;
 }
 
+#ing .footnote {
+    font-size: 60px;
+}
 
 #end {
     padding: 350px;
